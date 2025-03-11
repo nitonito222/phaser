@@ -1,0 +1,15 @@
+{
+  "name": "pukanie228",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "phaser": "^3.88.2",
+    "vite": "^6.1.0"
+  }
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+  </head>
+  <body>
+    <canvas id="gameCanvas"></canvas>
+    <main>
+      <div id="rulesScreen" class = "gameUI">
+        <h1>Правила игры</h1>
+        <p>Ловите фрукты, которые падают с верхней части экрана.</p>
+        <p>Фрукт, который нужно ловить меняется каждые 20 секунд.</p>
+        <p>За каждый верно пойманный фрукт +1 очко.</p>
+        <p>За каждый неверно пойманный фрукт -1 очко.</p>
+        <p>Нажмите "Начать", чтобы играть!</p>
+        <button id="startButton"><p>Начать</p></button>
+      </div>
+      <div id="gameOver" style="display: none;">
+        <h1>Вы проиграли!</h1>
+        <button id="restartButton"><p>Ещё раз</p></button>
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
